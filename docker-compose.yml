@@ -1,0 +1,9 @@
+version: "2"
+services:
+  esm:
+    build: .
+    image: eval-spec-maker
+    volumes:
+      - .:/doc
+
+
